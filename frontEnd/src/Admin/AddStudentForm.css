@@ -1,0 +1,62 @@
+/* WebForm.css */
+
+.web-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.web-form {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 800px;
+  height: fit-content;
+  background-color: #f9f9f9;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="tel"],
+select {
+  width: 35%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+select {
+  height: 38px;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}

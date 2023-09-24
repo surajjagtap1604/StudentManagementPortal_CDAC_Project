@@ -1,0 +1,122 @@
+/* Made with love by Mutiullah Samim*/
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,body{
+/* background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg'); */
+background-size: cover;
+background-repeat: no-repeat;
+height:00%;
+font-family: 'Numans', sans-serif;
+background-image: url('./studenthomepage.jpg'); 
+/* background-image: url('./treebackgroundimage.jpg'); */
+/* animation-name: example;
+  animation-duration: 25s;
+  animation-iteration-count: infinite; */
+  /* width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  overflow: hidden;  */
+}
+/* @keyframes example{
+    0%{
+      background-image: url('./background_image1.jpg');
+    }
+    25%{
+      background-image: url('./background_image2.jpg');
+    }
+    50%{
+      background-image: url('./background_image3.jpg');
+    }
+    75%{
+      background-image: url('./background_image4.jpg');
+    }
+    100%{
+      background-image: url('./background_image5.jpg');
+    }
+ } */
+
+.container{
+height: 100%;
+align-content: center;
+}
+
+.card{
+height:400px;
+margin-top: 10%;
+margin-bottom: auto;
+width: 600px;
+background-color: rgba(0,0,0,0.5) !important;
+}
+.card span
+{
+    color: aliceblue;
+}
+
+.card-header h3{
+color:#FFC312;
+
+font-size:35px;
+font-family:Arial, Helvetica, sans-serif;
+}
+.card-header h1{
+    margin-left:1%;
+    font-weight: 650;
+    color: white;
+    width:100%;
+    font-size:50px;
+    
+}
+.card-role span{
+    margin-inline-end: 10%;
+    color:beige;
+       
+}
+.input-group-prepend span{
+width: 50px;
+background-color: #FFC312;
+color: black;
+border:0 !important;
+height:37px ;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{
+color: black;
+background-color: #FFC312;
+width: 100px;
+
+
+}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}

@@ -1,0 +1,76 @@
+.styled-table {
+    border-collapse: collapse;
+    margin: 60px;
+    margin-left: 180px;
+    background-color: #dddddd;
+    padding: left 10px; 
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 800px;
+    width: 40px;
+    margin-top: 100px;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.15);
+    
+}
+.styled-table thead tr {
+    
+    color: #ffffff;
+    text-align: center;
+    column-span: 2;;
+}
+.styled-table thead th {
+   
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    column-span: 2;
+}
+.styled-table th,
+.styled-table td {
+    padding: 18px 0px;
+}
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 3px solid #df0808;
+}
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    
+}
+.profile-tag{
+  
+    height: 30px;;
+    
+  }
+
+  .profile-tag h2
+  {
+    font-weight: 600;
+font-size: 18px;
+background: #fff;
+color: #945b5b;
+padding: 10px;
+line-height: 1.7em;
+box-shadow: 0 150px 300px 0 #faf2f2;
+text-align: center;
+user-select: none;
+cursor: pointer;
+border-left: 20px solid #df0808;
+border-right: 20px solid #df0808;
+border-radius: 5px 55px 5px 55px;
+color: #19180f; font-family: 'Trocchi', serif; 
+font-size: 40px; font-weight: normal; 
+line-height: 48px; margin: 0; 
+  }
+
+
+   
+
+  

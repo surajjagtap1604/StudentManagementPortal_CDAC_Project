@@ -1,0 +1,17 @@
+.faculty_header {
+   margin-top: 20px; /* Top margin added */
+ }
+ 
+ .faculty_header h1 {
+   width: 85%;
+   padding: 10px;
+   background-color: #505150fc;
+   text-align: center;
+   font-weight: bold;
+   font-family: 'Helvetica Neue', sans-serif;
+   font-size: 40px;
+   border: 6px solid white;
+   border-radius: 30px;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+ }
+ 

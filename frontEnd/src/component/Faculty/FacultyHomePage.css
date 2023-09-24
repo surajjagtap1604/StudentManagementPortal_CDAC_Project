@@ -1,0 +1,152 @@
+.abc h1{
+    margin-left:1%;
+    font-weight: 650;
+    color: white;
+    width:100%;
+    font-size:50px;
+    display: flex;
+  
+    
+}
+.component-a {
+    background-color: #f2f2f2;
+    padding:1000px;
+    border: 1px solid #ccc; 
+    
+  }
+  
+  .component-b {
+    background-color: #e0e0e0;
+    padding: 10px;
+    border: 1px solid #999;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  .grid-item {
+    background-color: lightblue;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-size: cover;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+}
+
+.header {
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.content-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.faculty-profile {
+  
+  background-color:var(0);
+  color:#FFBF00;
+  padding: 10px;
+  image-orientation: 0deg;
+  border-radius: 5px;
+  width: 180px;
+  height: 230px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  
+}
+
+.faculty-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  margin: 20px 25px;
+  margin-top: -60%;
+  border: 6px solid rgb(152, 14, 14);
+}
+
+.navbar {
+  background-color: #a5a2a2;
+  padding: 5px;
+  border-radius: 19px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: -40%;
+}
+
+.navbar ul {
+  list-style:square;
+  padding:10%;
+  margin: 0;
+}
+
+.navbar li {
+  cursor: pointer;
+  padding: 10px 5px;
+  font-weight: bold;
+}
+
+.content {
+  flex: 2;
+  padding:10px;
+  height: fit-content;
+  border-radius: 50px;
+  box-shadow: 10px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.profile-column {
+  flex:1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.content-column {
+  flex:5;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+
+
+
+

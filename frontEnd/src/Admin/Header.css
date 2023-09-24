@@ -1,0 +1,23 @@
+/* h1 
+{ color: #c9d0d4; 
+font-family: 'Helvetica Neue', sans-serif;
+font-size: 46px; font-weight: 100; 
+line-height: 50px; letter-spacing: 1px;
+ padding: 0 0 40px; 
+ border-bottom: double #555; } */
+
+.header-tag h1{
+    color: antiquewhite;
+    display: inline;
+width:'85%';
+padding: '10px';
+text-align: center;
+font-Weight: 'bold';
+margin-Left: '250px';
+font-family: 'Helvetica Neue', sans-serif;
+font-size: 57px; font-weight: 100;
+border: 6px solid white;
+border-radius: 40px;
+padding: 10px;
+margin-block-start: 0%;
+}
